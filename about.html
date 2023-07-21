@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anjali_Raja PortFolio-Website</title>
+    <link rel="icon" href="fev5.jpg">
+    <link rel="stylesheet" href="helper.css">
+    <style>
+        /* * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            font-size: 1.02rem;
+            color: rgb(153, 153, 226);
+        }
+
+        .left {
+            font-size: 1.7rem;
+        } */
+
+        /* .first_row {
+            display: flex;
+            justify-content: space-around;
+            margin: 170px 0;
+           
+        }
+
+        .first_row>div {
+            width: 40%;
+        }
+
+        .left_col1 {
+            font-size: 3rem;
+            text-align: center;
+        }
+
+        .right_col1 {
+            font-size: 1.5rem;
+        } */
+
+        main hr {
+            border: 0;
+            background: #6b6a75;
+            height: 1.2px;
+            margin: 60px 84px;
+            opacity: 0.6;
+        }
+
+        /* .second_row {
+            display: flex;
+            justify-content: space-around;
+            margin: 150px 0;
+        }
+
+        .second_row>div {
+            width: 40%;
+        }
+
+        .edu_back {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+            font-size: 3rem;
+        }
+
+       
+         .left_col2 {
+            font-size: 2rem;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+       
+        .degree {
+            font-size: 1.7rem;
+            text-align: center;
+        }
+
+       
+         .score {
+            font-size: 1.5rem;
+            text-align: center;
+        }
+
+       
+         .year {
+            font-size: 1.2rem;
+            text-align: center;
+        } */
+
+
+
+
+
+        /* .slide {
+            width: 400px;
+            height: 500px;
+            position: absolute;
+            margin-left: 150px;
+            margin-bottom: 100px;
+            transition: 1s;
+        }
+
+        .but {
+            text-align: center;
+            margin-top: 510px;
+            margin-left: 120px;
+        }
+
+        .but button {
+            font-size: 15px;
+            padding: 1px;
+        } */
+    </style>
+
+
+</head>
+
+<body>
+
+
+    <header>
+        <nav>
+
+            <div class="left">Anjali's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+
+
+    <main>
+
+        <section class="first_row">
+            <div class="left_col1">
+                About Me
+            </div>
+
+            <div class="right_col1">
+                Detail Oriented, Organized and meticulous employee. Work at fast pace to meet tight deadlines.
+                Enthusiastic
+                team player ready to contribute to company success. Inventive Web Developer creates novel sites designs
+                and innovative user Interfaces. Know for architecting customer - facing products that deliver unique
+                experiances
+                while complying with internal coding standards and technical requirements. Clever provider
+                of fresh assets to grow usership.
+            </div>
+        </section>
+
+        <hr>
+        <div class="edu_back">Education Background</div>
+        <section class="second_row">
+
+            <div class="left_col2">
+                MADHAV INSTITUTE OF TECHNOLOGY AND SCIENCE, GWALIOR, MADHYA PRADESH
+                <br><br>
+                <div class="degree">B.Tech(Electronics Engineering)</div>
+
+                <div class="score">Score :- 7.2 (C.G.P.A)</div>
+
+                <class class="year">(2019 - 2023)</class>
+            </div>
+
+            <div class="right_col2">
+
+                <div class="slide">
+                    <img src="semester1.jpg" alt="">
+                </div>
+
+                <div class="slide">
+                    <img src="semester2.jpg" alt="">
+                </div>
+
+                <div class="slide">
+                    <img src="semester3.jpg" alt="">
+                </div>
+
+                <div class="slide">
+                    <img src="semester4.jpg" alt="">
+                </div>
+
+                <div class="slide">
+                    <img src="semester5.jpg" alt="">
+                </div>
+
+                <div class="slide">
+                    <img src="semester6.jpg" alt="">
+                </div>
+
+                <div class="slide">
+                    <img src="semester7.jpg" alt="">
+                </div>
+
+                <span class="arrow prev" onclick="controller(-1)">&#10094;</span>
+                <span class="arrow next" onclick="controller(+1)">&#10095;</span>
+
+            </div>
+            <script src="app.js"></script>
+        </section>
+
+        <section class="third_row">
+
+
+            <div class="left_col3">ST. DOMINIC SAVIO ENGLISH MEDIUM SCHOOL LALITPUR UTTAR PRADESH
+                <br><br>
+                <div class="degree">( 12th Standard )</div>
+
+                <div class="score">Score :- 76.2 % </div>
+
+                <class class="year">(2015 - 2017)</class>
+            </div>
+
+            <div class="right_col3">
+                <img src="school12.jpg" alt="">
+            </div>
+
+        </section>
+        <hr>
+        <section class="fourth_row">
+
+            <div class="left_col4">Skills</div>
+            <div class="right_col4">JAVA , Data Structure and Algorithm
+                , OOPs , JAVA Swing , JAVA AWT , HTML , CSS , Golang ,
+                MYSQL , Python .
+                <br><br>
+                <div class="gfg">Solved 250+ quality questions of (Java + DSA) on
+                    <div><span class="purple">Geeks for Geeks</span>
+                        <div class="buttons">
+                            <a href="https://auth.geeksforgeeks.org/user/bundelaraja96" target="_blank"><button class="btn">My GFG Profile</button></a>
+                        </div>  
+                    </div>
+                </div>
+                <div class="gfg">Solved 50+ quality questions of (Java + DSA) on
+                    <div><span class="purple">LeetCode</span>
+                        <div class="buttons">
+                            <a href="https://leetcode.com/bundelaraja759/" target="_blank"><button class="btn">My LeetCode Profile</button></a>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="fifth_row">
+
+
+            <div class="left_col5">INTERNSHIP
+                <br><br><br>
+                <div class="intern">(Smartknower Pvt Ltd)</div>
+                <div class="score">( Web Development )</div>
+                <br>
+                <div class="degree">* Created fully functional Web pages using
+                    HTML, CSS and Javascript.
+                    <br><br>
+                    *Building responsive and clean pages and components in HTML, CSS.
+                    <br><br>
+                    *Built Counselling website with the help of knowledge i gained.<a href="http://counselling-website.netlify.app/"><button style="background-color: rgba(140, 140, 233, 0.367);cursor: pointer;border-radius: 6px;color: white;border: 2px solid white; padding: 5px; font-size: 20px; border-radius: 15%; margin-left: 20px;">Visit</button></a>
+                </div>
+                
+                <class class="year">(01-07-2022) to (31-08-2022)</class>
+            </div>
+
+            <div class="right_col5">
+                <img src="internship.jpg" alt="">
+            </div>
+
+        </section>
+
+
+        <br><br><br><br><br>
+    </main>
+
+    <br><br><br><br><br>
+
+
+
+
+
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Anjali's Portfolio</h3>
+            </div>
+            <div class="footer-second"></div>
+            <div class="footer-third"></div>
+            <div class="footer-fourth">
+                <ul>
+                    <!-- <li>Home</li>
+                    <li>About</li>
+                    <li>Projects</li>
+                    <li>Contact Me</li> -->
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-rights">
+            Copyrights &#169; anjalisportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+
+    <!-- <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+     Setup and start animation! 
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Electronics Engineering Student.', 'Java  Developer.', ' Web  Developer.', 'Electronics Engineering Student.', 'Java  Developer.', ' Web  Developer.', 'Electronics Engineering Student.', 'Java  Developer.', ' Web  Developer.', 'Electronics Engineering Student.', 'Java  Developer.', ' Web  Developer.', 'Electronics Engineering Student.', 'Java  Developer.', ' Web  Developer.', 'Electronics Engineering Student.', 'Java  Developer.', ' Web  Developer.', 'Electronics Engineering Student.', 'Java  Developer.', ' Web  Developer.', 'Electronics Engineering Student.', 'Java  Developer.', ' Web  Developer.', 'Electronics Engineering Student.', 'Java  Developer.', ' Web  Developer.',],
+
+            typeSpeed: 50,
+        });
+    </script> -->
+
+
+</body>
+
+</html>
