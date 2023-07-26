@@ -89,9 +89,11 @@ nav ul li a:hover {
   max-width: 80vw;
   margin: auto;
   height: 80vh;
+  margin-bottom: 170px;
 }
 .secSection h1 {
   font-size: 1.9rem;
+  
 }
 
 .text-gray {
@@ -132,7 +134,8 @@ nav ul li a:hover {
   top: 86px;
   color: gray;
   width: 150px;
-  font-size: 11px;
+  font-size: 13px;
+  
 }
 .tech {
   position: relative;
